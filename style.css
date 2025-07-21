@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-size: 0.9375em;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    margin: 7% 6%;
+}
+
+.firstheader h1 {
+    font-size: 1.7em;
+    text-align: center;
+    color: #697077;
+    font-weight: 200;
+}
+
+.secondheader h1 {
+    font-size: 1.7em;
+    text-align: center;
+    color: #4c4e61;
+}
+
+.not-cards p {
+    margin: 1em auto 3em auto;
+    text-align: center;
+    color: #4c4e61;
+    font-weight: 400;
+}
+
+.supervisor, .team-builder, .karma, .calculator {
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: fit-content;
+}
+
+.cards h2 {
+    font-size: 1.2em;
+    color: #4c4e61;
+}
+
+.cards p {
+    margin-top: 0.6em;
+    margin-bottom: 1.6em;
+    color: #697077;
+    font-size: 0.8em;
+}
+
+.cards img {
+    position: relative;
+    left: 11em;
+    margin-top: 0.8em;
+}
+
+.supervisor {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border: 1px solid #ffffff;
+    border-top: 4px solid #69f5f5;
+    border-top-style: solid;
+    border-radius: 0.3em;
+    box-shadow: 1px 20px 44px -7px rgba(105, 112, 119, 0.37);
+}
+
+.team-builder {
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border: 1px solid #ffffff;
+    border-top: 4px solid #ea5353;
+    border-top-style: solid;
+    border-radius: 0.3em;
+    box-shadow: 1px 20px 44px -7px rgba(105, 112, 119, 0.37);
+}
+
+.karma {
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border: 1px solid #ffffff;
+    border-top: 4px solid #fcaf4a;
+    border-top-style: solid;
+    border-radius: 0.3em;
+    box-shadow: 1px 20px 44px -7px rgba(105, 112, 119, 0.37);
+}
+
+.calculator {
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border: 1px solid #ffffff;
+    border-top: 4px solid #549ef2;
+    border-top-style: solid;
+    border-radius: 0.3em;
+    box-shadow: 1px 20px 44px -7px rgba(105, 112, 119, 0.37);
+}
+
+@media (min-width: 1100px) {
+
+    .not-cards {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .not-cards p {
+        margin: 1em auto 4em auto;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .supervisor:hover, .team-builder:hover, .karma:hover, .calculator:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+}
