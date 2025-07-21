@@ -117,7 +117,7 @@ body {
     }
 
     .supervisor, .team-builder, .karma, .calculator {
-        margin: 1em;
+        margin: 1.1em;
     }
 
     .supervisor:hover, .team-builder:hover, .karma:hover, .calculator:hover {
